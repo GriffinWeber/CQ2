@@ -1,20 +1,20 @@
 # CQ2
-Clinical Query 2
-Version 1.0.0
+Clinical Query 2;
+Version 1.0.0;
 March 1, 2020
 
 Created by:
-Griffin M Weber, MD, PhD
-Nick Benik
-Nick Brown
-Ken Huling
+Griffin M Weber, MD, PhD;
+Nick Benik;
+Nick Brown;
+Ken Huling;
 Yun William Yu, PhD
 
 Please direct questions to:
-Griffin M Weber, MD, PhD
-Associate Professor of Medicine and Biomedical Informatics
-Beth Israel Deaconess Medical Center
-Harvard Medical School
+Griffin M Weber, MD, PhD;
+Associate Professor of Medicine and Biomedical Informatics;
+Beth Israel Deaconess Medical Center;
+Harvard Medical School;
 weber@hms.harvard.edu
 
 OVERVIEW
