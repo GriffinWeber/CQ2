@@ -138,3 +138,6 @@ type Schema\PM\PM_USER_PARAMS.Table.sql >> CreateTableViews.sql
 type Schema\PM\PM_USER_SESSION.Table.sql >> CreateTableViews.sql
 type Schema\WORK\WORKPLACE.Table.sql >> CreateTableViews.sql
 type Schema\WORK\WORKPLACE_ACCESS.Table.sql >> CreateTableViews.sql
+
+type Schema\CRC\vwCQ2_ConceptDimension.View.sql >> CreateTableViews.sql
+type Schema\CRC\vwCQ2_Ontology.View.sql >> CreateTableViews.sql
