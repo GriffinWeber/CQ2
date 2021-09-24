@@ -1,0 +1,8 @@
+*NO_SOURCECONTROL*
+/Release/CQ2/*
+/Release/CQ2.zip
+/Release/BuildDatabase/tmp/*
+
+/Database/CreateFunctionsProcedures.sql
+/Database/CreateOptionalObjects.sql
+/Database/CreateTablesViews.sql
