@@ -19,9 +19,9 @@ function getdbconfig(){
     return '{
         "database": {
         "host": "127.0.0.1",
-        "user": "CQ2_PHP",
-        "password": "demouser123!",
-        "dbname": "CQ2_PHP"
+        "user": "CQ2",
+        "password": "**************",
+        "dbname": "CQ2"
            }
       }';
 }
@@ -97,7 +97,7 @@ function getresponse(response_data $rsp_data){
         return $conn_err;
     }
 
-    $tsql_callSP = "{call HIVE.uspGetResponse(?,?,?,?,?)}";
+    $tsql_callSP = "{call HIVE.uspGetResponse_PHP(?,?,?,?,?)}";
 
 	$fixed = fix_xml($rsp_data->Request);
 
