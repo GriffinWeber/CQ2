@@ -1,7 +1,7 @@
 # CQ2
 Clinical Query 2;
-Version 1.0.0;
-March 1, 2020
+Version 1.0.1;
+September 24, 2021
 
 Created by:
 Griffin M Weber, MD, PhD;
