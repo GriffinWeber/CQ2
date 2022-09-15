@@ -32,3 +32,9 @@ A unique feature of CQ2 is its query engine. Optimized indexes and the use of st
 USE CASES
 
 CQ2 has two primary use cases. The first is serving as an institution’s “enterprise” i2b2 system. Its performance optimizations enable it to scale to massive sizes (100+ million patients). The second is as an i2b2 node in federated networks. The fact that it is just a single database and one web service proxy file makes it easy to “spin up” new instances to plug into these networks. However, because CQ2 does not include the i2b2 Java layer, it does not support i2b2 Java plugins that have been developed for specialized use cases, such as image processing or genomics pipelines.
+
+INSTALLATION
+
+We recommend that organizations interested in using CQ2 download the latest release zip file from https://github.com/GriffinWeber/CQ2/releases. The release zip contains fully tested code, and includes simplified database install and upgrade scripts. The installation process is documented in the CQ2Documentation.docx file.
+
+CQ2 Developers who wish to build the latest code can do so by cloning the GitHub repo. Note that we only perform a full regression test on release builds, therefore we recommend that production deployments stick to these. GitHub does not contain build and upgrade scripts (as these are generated during the release build process), instead, the Release/BuildDatabase/BuildDemoData.bat script can be used to build the latest CQ2 database and load the demo data from a clone of the GitHub repo.
