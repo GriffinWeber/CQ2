@@ -31,6 +31,6 @@ sqlcmd -S . -d %DB_NAME% -E -Q "INSERT INTO CRC.ENCOUNTER_MAPPING SELECT CAST(EN
 
 sqlcmd -S . -d "%DB_NAME%" -E -i "tmp\CQ2\Database\CreateAccount.sql"
 
-sqlcmd -S . -d %DB_NAME% -E -Q "update PM.PM_CELL_DATA set URL = Case when Cell_ID = 'CRC' then 'http://localhost/CQ2/?/QueryToolService/' when CELL_ID = 'ONT' then 'http://localhost/CQ2/?/OntologyService/' when CELL_ID = 'WORK' THEN 'http://localhost/CQ2/?/WorkplaceService/' else '' END"
+REM sqlcmd -S . -d %DB_NAME% -E -Q "update PM.PM_CELL_DATA set URL = Case when Cell_ID = 'CRC' then 'http://localhost/CQ2/?/QueryToolService/' when CELL_ID = 'ONT' then 'http://localhost/CQ2/?/OntologyService/' when CELL_ID = 'WORK' THEN 'http://localhost/CQ2/?/WorkplaceService/' else '' END"
 
-REM sqlcmd -S . -d %DB_NAME% -E -Q "update PM.PM_CELL_DATA set URL = Case when Cell_ID = 'CRC' then 'http://localhost/i2b2ServerProxy/CQ2ServiceProxy.php/QueryToolService/' when CELL_ID = 'ONT' then 'http://localhost/i2b2ServerProxy/CQ2ServiceProxy.php/OntologyService/' when CELL_ID = 'WORK' THEN 'http://localhost/i2b2ServerProxy/CQ2ServiceProxy.php/WorkplaceService/' else '' END"
+sqlcmd -S . -d %DB_NAME% -E -Q "update PM.PM_CELL_DATA set URL = Case when Cell_ID = 'CRC' then 'http://localhost/i2b2ServerProxy/CQ2ServiceProxy.php/QueryToolService/' when CELL_ID = 'ONT' then 'http://localhost/i2b2ServerProxy/CQ2ServiceProxy.php/OntologyService/' when CELL_ID = 'WORK' THEN 'http://localhost/i2b2ServerProxy/CQ2ServiceProxy.php/WorkplaceService/' else '' END"
