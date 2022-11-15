@@ -32,7 +32,7 @@ header('Content-type: application/xml');
 
 if(strcasecmp($_SERVER['REQUEST_METHOD'], 'POST') != 0){
     //If it isn't a POST, send back a 405 Method Not Allowed header.
-    header($_SERVER["SERVER_PROTOCOL"]." 405 adfMethod Not Allowed", true, 405);
+    header($_SERVER["SERVER_PROTOCOL"]." 405 Method Not Allowed", true, 405);
     exit;
 }
 
